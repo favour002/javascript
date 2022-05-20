@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- conditional block -->
+    <script>
+       let username = prompt("What is Your Name")
+
+       let time = prompt ("Enter Time")
+
+
+       let greeting;
+       if(time <= 12){
+           greeting = "Good Morning" + username;
+       }
+
+       else if (time >= 12 && time <= 16) {
+           greeting = "Good Afternoon " + username;
+       }
+
+       else {
+           greeting = "Good Evening " + username;
+    }
+
+       alert(greeting)
+    </script>
+   
+</body>
+</html>
